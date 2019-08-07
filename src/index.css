@@ -1,13 +1,71 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  margin: 12px;
+  font-family: 'Hind Siliguri';
+  font-size: 1.2em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+.content {
+  width: 800px;
+  margin: auto auto;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.dropcap {
+  float: left;
+  font-size: 75px;
+  line-height: 60px;
+  padding: 4px 4px 0 3px;
+  font-family: 'Francois One';
+  color: maroon;
+}
+
+
+h1 {
+  font-family: 'Francois One';
+  font-size: 80px;
+  line-height: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Francois One';
+  font-size: 36px;
+  color: maroon;
+  margin-bottom: 10px;
+}
+
+img.aside {
+  width: 50%;
+  float: right;
+}
+
+blockquote{
+  /* font-size: 30px; */
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: .5em 10px;
+  padding: 0 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  padding: 10px 20px;
+  line-height: 1.4;
+  font-family: Saira;
+}
+
+blockquote:before {
+  content: open-quote;
+  display: inline-block;
+  height: 0;
+  line-height: 0;
+  left: -10px;
+  position: relative;
+  top: 30px;
+  color: #ccc;
+  font-size: 3em;
 }
