@@ -3,7 +3,7 @@ const exerciseList = [
     number: 0,
     video: '',
     instructions: 'exercise-0.pdf',
-    code: ''
+    code: 'https://repl.it/@halbhelms/Exercise-0'
   },
   {
     number: 1,

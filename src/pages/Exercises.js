@@ -14,11 +14,11 @@ const Exercises = (props) => {
       </div>
       <div className={styles.link}>
         <p className={styles.linkTitle}>Instructions:</p>
-        <p className={styles.linkText}><a href={exercise.instructions} target="new-window">{exercise.instructions}</a></p>
+        <p className={styles.linkText}></p>
       </div>
       <div className={styles.link}>
         <p className={styles.linkTitle}>Starting code:</p>
-        <p className={styles.linkText}>{exercise.code}</p>
+        <p className={styles.linkText}><a href={`https://repl.it/@halbhelms/Exercise-${exercise.number}`} target="newwin">https://repl.it/@halbhelms/Exercise-{exercise.number}</a></p>
       </div>
     </div>
     ) 
