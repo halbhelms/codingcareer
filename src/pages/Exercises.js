@@ -14,11 +14,11 @@ const Exercises = (props) => {
       </div>
       <div className={styles.link}>
         <p className={styles.linkTitle}>Instructions:</p>
-        <p className={styles.linkText}></p>
+        <p className={styles.linkText}><a href={`../pdfs/Exercise-${exercise.number}.pdf`} target="newwin1">Exercise-{exercise.number}</a></p>
       </div>
       <div className={styles.link}>
         <p className={styles.linkTitle}>Starting code:</p>
-        <p className={styles.linkText}><a href={`https://repl.it/@halbhelms/Exercise-${exercise.number}`} target="newwin">https://repl.it/@halbhelms/Exercise-{exercise.number}</a></p>
+        <p className={styles.linkText}><a href={exercise.code} target="newwin2">{exercise.codeText}</a></p>
       </div>
     </div>
     ) 
@@ -27,14 +27,13 @@ const Exercises = (props) => {
     <div className="content">
     <Header />
     <h1>Exercises</h1>
-    <p><span className="dropcap">S</span>o, you're maybe interested in becoming a programmer, but you probably have at least three questions:</p>
+    <p><span className="dropcap">S</span>o, you're maybe interested in becoming a programmer, but you probably have at least two questions:</p>
     <ul className={styles.question}>
-      <li>What <b>kind</b> of work does programming entail?</li>
-      <li>Can I <b>do</b> the actual work?</li>
+      <li>Do I have what it takes to be a professional programmer?</li>
       <li>Would I <b>like</b> the actual work?</li>
     </ul>
 
-    <p>The best &mdash; I would argue the <b>only</b> &mdash; way to answer these questions is to give you some actual <b>experience</b> programming.</p>
+    <p>The best &mdash; I would argue the <b>only</b> &mdash; way to answer these questions is to give you some actual programming <b>experience</b>.</p>
 
     <p>I've created 60 exercises that begin simply and gradually become more complex to give you that experience. These are <b>free</b>. They will teach you the basics of the three technologies in becoming a JavaScript programmer: <b>HTM, CSS, and JavaScript</b> itself.</p>
 
@@ -48,7 +47,9 @@ const Exercises = (props) => {
       <li><b>Link to code</b>: a link to starter code you'll use to complete the exercise. In addition to the starter code, completed code showing my solution is provided.</li>
     </ul>
 
-    <p>You won't finish these in a day or two. Each exercise can take between 20-60 minutes to complete, but if you really want to explore whether being a professional coder is realistic for you, I strongly encourage you to go through all of them.</p>
+    <p>You won't finish these in a day or two. Each exercise can take between 20-45 minutes to complete, but if you really want to explore whether being a professional coder is realistic for you, I strongly encourage you to go through all of them.</p>
+
+    <p>When you're ready to go pro, join me at <a href="codingcareer.org" target="newwin">codingcareer.org</a> and explore the options available to you in my <b>CareerChanger</b> professional programming course.</p>
 
     {listOfExercises}
     
