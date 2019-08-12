@@ -32,7 +32,11 @@ return (
         <li><b>Nonroutine cognitive</b>: teacher, doctor, radiologist, surgeon, CEO, public relations, financial analyst</li>
       </ul>
     </p>
-    <p>Most of the 38% of jobs that will be lost by the early 2030s will come from the first two groups: routine physical and routine cognitive. But the shift to artificial intelligence won't stop there. Already AI radiologists vastly outperform their human counterparts in identifying cancers. Many sober analysts believe that by 2060, <b>every job will be done by AI/robots</b>.</p>
+    <p>Most of the 38% of jobs that will be lost by the early 2030s will come from the first two groups: routine physical and routine cognitive. But the shift to artificial intelligence won't stop there.</p> 
+    
+    <p>Already AI radiologists vastly outperform their human counterparts in identifying cancers. IBM's Watson, in addition to beating the two best Jeopardy champions in history, was recently given the same information that doctors had on 1000 patients. Watson gave the same diagnosis as the doctors did in over 99% of cases &mdash; and 30% of the time, provided further analysis that the doctors missed.
+      
+      Many sober analysts believe that by 2060, <b>every job will be done by AI/robots</b>.</p>
 
     <p>Bill Gates and Elon Musk are both on record expressing grave concerns about what AI may mean for humans. Musk went so far as to say that AI represents a graver threat than nuclear weapons.</p>
 
