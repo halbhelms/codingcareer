@@ -34,18 +34,15 @@ const Home = (props) => {
 
     <p>If you're like most of us, you probably think that the idea of becoming a professional programmer is <i>outrageous</i>! You're no good a math. You're not "technical". And you probably think you're not smart enough.</p>
 
-    <p>My route to becoming a professional programming was...uh...circuitous. In the only year of college I completed, I studied theology. That naturally led to a career in...woodworking. I really stumbled into programming and I'm grateful that I knew a programming manager who took a chance and hired me when I knew absolutely nothing.</p>
+    <p>My route to becoming a professional programming was...circuitous. In the only year of college I completed, I studied theology. That naturally led to a career in woodworking? I really stumbled into programming and I'm grateful that I knew a programming manager who took a chance and hired me when I knew absolutely nothing.</p>
 
     <p>I learned that programming isn't a natural talent like singing or drawing. It's a skill &mdash; a way of <i>thinking</i> really &mdash; that can be learned.</p>
 
-    <p>But that probably isn't <i>nearly</i> enough to convince you. Maybe Aaron and Wes and I all had a lurking "programming gene" that just hadn't come to the fore yet. Maybe, despite none of us being particularly good at math, we had some nascent genius that only needed the right environment to express itself?</p>
+    <p>But that probably isn't <i>nearly</i> enough to convince you. Maybe Aaron and Wes and I all had a recessive "programming gene" that just hadn't come to the fore yet. Maybe, despite none of us being particularly good at math, we had some nascent genius that only needed the right environment to express itself?</p>
 
-    <p>So, rather than try to convince you, I'm offering <Link to="/exercises"><b>60 exercises</b></Link> to help <i>you</i> decide. They're all free. These aren't quizzes. They're actual coding exercises. They start simply and move up in complexity. Most importantly, they'll let you experience what it's like to be a programmer. They'll take you between 20 and 45 minutes to complete each one and there are answers provided if you really get stuck.</p>
+    <p>Rather than try to convince you otherwise, I'm offering you <Link to="/exercises"><b>60 exercises</b></Link> to help <i>you</i> decide. They're all free. These aren't quizzes. They're actual coding exercises. They start simply and move up in complexity. Most importantly, they'll let you experience what it's like to be a programmer. They'll take you between 20 and 45 minutes to complete each one and there are answers provided if you really get stuck.</p>
 
-    <p>But before you make up your mind, I've got some seriously <Link to="/badnews"><b>bad news</b></Link> about the future.</p>
-
-    
-
+    <p>But before you make up your mind, I've got <Link to="/badnews"><b>reasons</b></Link> that will help explain why I'm standing on this soapbox crying "The End is Nigh!"</p>
     </div>
   );
 }
