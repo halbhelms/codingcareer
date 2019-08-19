@@ -34,7 +34,7 @@ const Home = (props) => {
 
     <p>If you're like most of us, you probably think that the idea of becoming a professional programmer is <i>outrageous</i>! You're no good a math. You're not "technical". And you probably think you're not smart enough.</p>
 
-    <p>My route to becoming a professional programming was...circuitous. In the only year of college I completed, I studied theology. That naturally led to a career in woodworking? I really stumbled into programming and I'm grateful that I knew a programming manager who took a chance and hired me when I knew absolutely nothing.</p>
+    <p>My route to becoming a professional programmer was...circuitous. In the only year of college I completed, I studied theology. That naturally led to a career in woodworking? I really stumbled into programming and I'm grateful that I knew a programming manager who took a chance and hired me when I knew absolutely nothing.</p>
 
     <p>I learned that programming isn't a natural talent like singing or drawing. It's a skill &mdash; a way of <i>thinking</i> really &mdash; that can be learned.</p>
 
