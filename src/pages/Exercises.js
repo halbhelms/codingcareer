@@ -10,7 +10,7 @@ const Exercises = (props) => {
       <h3 className={styles.exerciseNo}>Exercise {exercise.number}</h3>
       <div className={styles.link}>
         <p className={styles.linkTitle}>Explanatory video:</p>
-        <p className={styles.linkText}>{exercise.video}</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/sO8WHsow2QM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title={`Exercise ${exercise.number}`}></iframe>
       </div>
       <div className={styles.link}>
         <p className={styles.linkTitle}>Instructions:</p>
@@ -50,6 +50,18 @@ const Exercises = (props) => {
     <p>You won't finish these in a day or two. Each exercise can take between 20-45 minutes to complete, but if you really want to explore whether being a professional coder is realistic for you, I strongly encourage you to go through all of them.</p>
 
     <p>When you're ready to go pro, join me at <a href="codingcareer.org" target="newwin">codingcareer.org</a> and explore the options available to you in my <b>CareerChanger</b> professional programming course.</p>
+    
+    <div className={styles.exercise}>
+      <p>This short video explains how to set up and use a free account at repl.it, which you'll need to complete the exercises. </p>
+      <div><iframe title="using-a-repl" width="560" height="315" src="https://www.youtube.com/embed/3-qjTcV-Eh0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+    
+    <div className={styles.exercise}>
+      <p>This video explains how to set up and use VS Code. </p>
+      <div><iframe title="Getting set up with VS Code" width="560" height="315" src="https://www.youtube.com/embed/PXsKMi0fvu4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
 
     {listOfExercises}
     

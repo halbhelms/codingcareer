@@ -1,6 +1,6 @@
 const exerciseList = [{
     number: 0,
-    video: '',
+    video: 'https://www.youtube.com/embed/sO8WHsow2QM',
     code: 'https://repl.it/@halbhelms/Exercise-0',
     codeText: 'https://repl.it@halbhelms/Exercise-0'
   },
