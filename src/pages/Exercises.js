@@ -10,7 +10,7 @@ const Exercises = (props) => {
       <h3 className={styles.exerciseNo}>Exercise {exercise.number}</h3>
       <div className={styles.link}>
         <p className={styles.linkTitle}>Explanatory video:</p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sO8WHsow2QM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title={`Exercise ${exercise.number}`}></iframe>
+        <iframe width="560" height="315" src={`https://www.youtube.com/embed/${exercise.video}`} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title={`Exercise ${exercise.number}`}></iframe>
       </div>
       <div className={styles.link}>
         <p className={styles.linkTitle}>Instructions:</p>
