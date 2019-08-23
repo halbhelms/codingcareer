@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/codingcareer/static/css/main.90521a04.chunk.css",
+    "main.js": "/codingcareer/static/js/main.897f5dc9.chunk.js",
+    "main.js.map": "/codingcareer/static/js/main.897f5dc9.chunk.js.map",
+    "runtime~main.js": "/codingcareer/static/js/runtime~main.88cdfea6.js",
+    "runtime~main.js.map": "/codingcareer/static/js/runtime~main.88cdfea6.js.map",
+    "static/js/2.9d915a1f.chunk.js": "/codingcareer/static/js/2.9d915a1f.chunk.js",
+    "static/js/2.9d915a1f.chunk.js.map": "/codingcareer/static/js/2.9d915a1f.chunk.js.map",
+    "index.html": "/codingcareer/index.html",
+    "precache-manifest.a813e5bf2a023ce2fe760b1992e9d31f.js": "/codingcareer/precache-manifest.a813e5bf2a023ce2fe760b1992e9d31f.js",
+    "service-worker.js": "/codingcareer/service-worker.js",
+    "static/css/main.90521a04.chunk.css.map": "/codingcareer/static/css/main.90521a04.chunk.css.map",
+    "static/media/average-js-salary.jpg": "/codingcareer/static/media/average-js-salary.f2e92d1a.jpg",
+    "static/media/current-jobs.png": "/codingcareer/static/media/current-jobs.cdd492b4.png",
+    "static/media/logo.png": "/codingcareer/static/media/logo.cac41a2f.png",
+    "static/media/moores-law.png": "/codingcareer/static/media/moores-law.2ce64539.png",
+    "static/media/noahs-ark.png": "/codingcareer/static/media/noahs-ark.5ce48d00.png",
+    "static/media/robot-girder-workers.png": "/codingcareer/static/media/robot-girder-workers.44c30609.png",
+    "static/media/salaries-by-state.png": "/codingcareer/static/media/salaries-by-state.c000b2eb.png"
+  }
+}
